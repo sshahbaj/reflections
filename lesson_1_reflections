@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff software conveniently showed me the changes that were done in the
+    two versions of the file, from which i was able to pick out the bug that creeped
+    in.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the entire history of a file helps us to revert back to last
+    stable version of the file or the check at which point in thime the bug was
+    introduced.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    1) The commits are sensible.
+    2) The change will be complete.
+    3) You are aware of the commit being made.
+
+    Cons:
+    1) Possibility of cluttering your commit history will large number of simple
+    commits, which could hace been combined to form a single change.
+    2) Possibility of making one huge commit that will have a lot of changes in it,
+    making it hard to understand the changes were made.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is intended to track the changes made to a software, where multiple files are
+    related and changing one file might require a change in another file and hence it
+    makes sense to save these two files in one logical commit.
+    Where as in Google Docs the files are usually not related and can be treated as
+    seperate commits.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By typing git log into the console you will get the list of all previous commits
+    made to the repository. With the command git diff you can view the changes done to
+    a file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I'll be confident in making changes even if those changes break something because
+    i can easily revert back to a version  before i made those changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to contribute to open source framework Django.
+
