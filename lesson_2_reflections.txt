@@ -15,14 +15,37 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    By using git add, we can make sure to add only those files that signify 
+    a single logical change. Even if we later decide that we don't want to commit
+    a particular file, we can easily remove it by typing command git reset<file>.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Situations where i want to introduce a change in the codebase but dont want to
+    disturb the master branch, in that case creating a new branch would help me to keep
+    the history organized.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagrams help me to easily track the parent of a commit and to know which
+    branches are reachable and which are not.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    The result of merging two branches together is that all the commits of the two branches
+    get combined into one branch and are sorted accordingly to their timestamp.
+    The reason we represent it in the diagram the we do is because both the branches have
+    combined to become one single branch but the parent of each commit before being merged
+    does not change. Hence, we only join the HEAD's two branch into a single commit.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
+    Pros:
+    You wont have to deal with merging the commits of branches one by one.
+
+    Cons:
+    Git won't be able to handle a situation where there is a file that has been changed by
+    in the same part by different contributers and would result in a conflict.
