@@ -18,14 +18,16 @@ Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     - branch: node A of local repository branch out to node B and C of same local repository
-	- clone: clone lcoal repository A from one local location to another local location.
-	- clone: cline Github repository A from one Github location to another local location.  (and vice versa)
+    - clone: clone local repository A from one local location to another local location.
+    - clone: cl0ne Github repository A from one Github location to another local location.  (and vice versa)
     - fork: clone Github repository A from one Github location to another Github location. (and vice versa)
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit of having a copy of the last known state of thr remote stored
+    locally is the fact that we will be up-to-date with the remote repository,
+    which will help in avioiding doing a work that has already been done.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
